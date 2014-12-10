@@ -1,0 +1,29 @@
+<openerp>
+    <data>
+	<menuitem name="Sales"
+	id="base.menu_base_partner"
+	groups="base.group_sale_salesman,base.group_sale_manager"
+	sequence="11"/>
+
+	<menuitem name="Warehouse"
+	id="stock.menu_stock_root"
+	groups="stock.group_stock_manager,stock.group_stock_user"
+	sequence="20"/>
+<!--
+	<menuitem name="Purchases"
+	id="base.menu_purchase_root"
+	groups="purchase.group_purchase_manager,purchase.group_purchase_user"
+	sequence="30"/>
+-->	
+	<menuitem name="Accounting"
+	id="menu_finance_reporting"
+	parent="base.menu_reporting" 
+	sequence="10"/>
+
+	<menuitem name="Messaging"
+	id="mail.mail_feeds_main"
+	groups="base.group_user"
+	sequence="50"/>
+
+    </data>
+</openerp>
